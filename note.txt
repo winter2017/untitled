@@ -1,0 +1,12 @@
+1.pip安装包，超时问题解决
+pip instal -i 镜像地址 --trusted-host 镜像地址对应的host
+国内的pip源:
+阿里云：https://mirrors.aliyun.com/pypi/simple
+清华：https://pypi.tuna.tsinghua.edu.cn/simple
+豆瓣:https://pypi.douban.com/simple
+
+2.unittest
+2.1单元测试一般使用路径覆盖的方法设计用例(语句覆盖，条件覆盖等)
+2.2unittest常用断言：asserteaqual,assertin,asserttrue
+
+3.__all__=[],在import *时起作用，写在列表内的模块或者方法或者变量，会暴露在外.__all__可以写在文件或者__init__里面
